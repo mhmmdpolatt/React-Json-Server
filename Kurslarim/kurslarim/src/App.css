@@ -1,0 +1,117 @@
+
+html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #B5C0D0;
+
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-color: #ffffff;
+    width: 320px;
+    padding: 25px;
+    margin: 8px;
+    background-color: #F5E8DD;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.cardTitlePrice {
+    background-color: #3498db;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.cardTitlePrice h2,
+.cardTitlePrice h4 {
+    margin: 0;
+}
+
+
+
+/* .deleteButton {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+} */
+
+/* .deleteButton:hover {
+    background-color: #c0392b;
+} */
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.mainDiv title{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+.kart {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.durum h2 {
+    margin-top: 0;
+}
+
+.durumButon {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.butonDüzen{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 3px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.butonDüzen button{
+    padding: 12px;
+    background-color: #F5E8DD;
+    color: black;
+    border-radius: 18px;
+    
+}
